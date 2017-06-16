@@ -335,7 +335,7 @@ namespace dbo_CustomerUnitTest
 		
 
 		[TestMethod()]
-		public void dbo_CustomerNullParamReturnsZeroRows()
+		public void dbo_CustomerNullParamReturns0Rows()
 		{
 			SqlDatabaseTestActions testActions = this.dbo_CustomerNullParamReturns0RowsData;
 			// Execute the pre-test script
